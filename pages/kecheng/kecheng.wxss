@@ -1,0 +1,40 @@
+/* pages/kecheng/kecheng.wxss */
+.productNav{
+  display: flex;
+  flex-direction: row;
+  font-family: "Microsoft YaHei"
+}
+.left{
+  width: 25%;
+  font-size: 30rpx;
+  background-color: #f4f4f4;
+}
+.left view{
+  text-align: center;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.selected{
+  background-color: #fff;
+  border-left: 3px solid #4675f9;
+  font-weight: bold;
+  color: #4675f9;
+}
+.normal{
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #f2f2f2;
+}
+.right{
+  width:75%;
+  margin: 0;
+}
+swiper{
+  height: 525px;
+}
+
+.sider_box{
+  padding:10px 20px;
+}
+.slider_tit{ color: #4675f9; }
+.slider_listbox{ padding:7px 0; display:  flex; flex-direction: row;border-bottom:1px solid #ddd; margin-bottom: 10px;}
+.slider_listcon{padding-right: 10px; color: #666; font-size: 14px;}

@@ -1,0 +1,73 @@
+/* pages/article/article.wxss */
+
+.container0 {
+  width: 100%;
+  position: relative;
+}
+
+.article_pic {
+  width: 100%;
+  height: 340rpx;
+}
+
+.article_info {
+  position: absolute;
+  top: 165rpx;
+  left: 0;
+  width: 100%;
+  height: 100rpx;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx 60rpx;
+  justify-content: center;
+}
+
+.article_info_tit {
+  font-size: 32rpx;
+}
+
+.article_info_wz {
+  font-size: 24rpx;
+  line-height: 30px;
+}
+
+.article_tmbox {
+  background: #f7f7f7;
+  height: 120rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+  padding: 30rpx 0;
+
+}
+
+.article_tm_list{ flex-direction: column; font-size: 28rpx; color:#999; line-height: 24px;}
+.article_tm_list text{ display:flex; flex-direction: column; text-align: center;}
+.article_tm_list text.kc_num{ font-size: 36rpx; color: #000;}
+
+
+
+.article_details {
+  font-size: 28rpx;
+  color: #666;
+  padding: 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.article_line{ border-left: 1rpx solid #e5e5e5;  width: 10rpx; height: 80rpx;}
+
+
+
+.article_details .tit {
+  font-size: 32rpx;
+  padding: 20rpx 0;
+}
+
+.article_details .wz {
+  padding-bottom: 10rpx;
+  line-height: 22px;
+}

@@ -1,0 +1,48 @@
+<!--pages/myhome/myhome.wxml-->
+<view class="container0">
+  <view class="header_avatar">
+    <view class="header_box">
+      <view class="myheader_pic">
+        <open-data type="userAvatarUrl"></open-data>
+        <image src="/images/avatar.png" class="avatar_pic"></image>
+      </view>
+      <open-data type="userNickName" class="myheader_name"></open-data>
+    </view>
+  </view>
+  <view class="mybar_box">
+    <view class="myorder_bar">
+          <text class="myorder_tit">我的订单</text>
+          <text class="myorder_txt">全部 ></text>
+    </view>
+    <view class="mybar_list" data-destination="history" bindtap="travel">
+      <image class="my_icon" src="/images/main_noPay.png"></image>
+      <text>待付款</text>
+      <image class="icon_arrow" src="/images/arrow_right.png"></image>
+    </view>
+    <view class="mybar_list" data-destination="pdd" bindtap="travel">
+      <image class="my_icon" src="/images/main_payment.png"></image>
+      <text>待发货</text>
+      <image class="icon_arrow" src="/images/arrow_right.png"></image>
+    </view>
+    <view class="mybar_list" data-destination="jd" bindtap="travel">
+      <image class="my_icon" src="/images/my_jdwl.png" style="width:20px; height:20px;"></image>
+      <text>待收货</text>
+      <image class="icon_arrow" src="/images/arrow_right.png" ></image>
+    </view>
+     <view class="mybar_list" data-destination="jd" bindtap="travel">
+      <image class="my_icon" src="/images/main_settled.png"></image>
+      <text>已完成</text>
+      <image class="icon_arrow" src="/images/arrow_right.png"></image>
+    </view>
+
+    
+  </view>
+
+ <view class="newshare_box">
+    <image class="newshare_pic"></image>
+  </view>
+  
+
+
+
+</view>

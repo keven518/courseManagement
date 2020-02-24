@@ -1,0 +1,36 @@
+<!--pages/article/article.wxml-->
+<view class="container0">
+     <image class="article_pic" src="../../images/pic0.jpg" mode="aspectFill"></image>
+     <view class="article_info">
+          <text class="article_info_tit">施展中国制造报告</text>
+          <text class="article_info_wz">中国优势往往哪里去？</text>
+     </view>
+     <view class="article_tmbox">
+          <view class="article_tm_list">
+               <text class="kc_num">1/21讲</text>
+               <text>更新/总讲数</text>
+          </view>
+          <view class="article_line"></view>
+          <view class="article_tm_list">
+              <text class="kc_num">8123人</text>
+              <text>加入学习</text>        
+          </view>
+     
+     </view>
+<view class="article_details">
+    <text class="tit">老师简介</text>
+    <text class="wz">开发者可以将页面内的功能模块抽象成自定义组件，以便在不同的页面中重复使用；也可以将复杂的页面拆分成多个低耦合的模块，有助于代码维护。自定义组件在使用时与基础组件非常相似。</text>
+    <text class="tit">22老师简介</text>
+    <text class="wz">开发者可以将页面内的功能模块抽象成自定义组件，以便在不同的页面中重复使用；也可以将复杂的页面拆分成多个低耦合的模块，有助于代码维护。自定义组件在使用时与基础组件非常相似。</text>
+    <text class="tit">33老师简介</text>
+    <text class="wz">开发者可以将页面内的功能模块抽象成自定义组件，以便在不同的页面中重复使用；也可以将复杂的页面拆分成多个低耦合的模块，有助于代码维护。自定义组件在使用时与基础组件非常相似。</text>
+
+
+
+</view>
+
+</view>
+
+
+
+

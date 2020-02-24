@@ -1,0 +1,70 @@
+<!--pages/kecheng/kecheng.wxml-->
+<view class='productNav'>
+  <!-- 左侧 -->
+  <view class='left'>
+    <view class="{{active==0?'selected':'normal'}}" id="0" bindtap='switchNav'>大学考试</view>
+    <view class="{{active==1?'selected':'normal'}}" id="1" bindtap='switchNav'>冬夏令营</view>
+    <view class="{{active==2?'selected':'normal'}}" id="2" bindtap='switchNav'>出国留学</view>
+  </view>
+  <!-- 右侧 -->
+  <view class='right'>
+    <view class='type'>
+      <!-- current:当前所在滑块的 index -->
+      <!-- vertical:滑动方向是否为纵向 -->
+      <swiper current='{{currentTab}}' vertical='{{true}}'>
+        <!-- catchtouchmove 阻止弹窗后滚动穿透 -->
+        <swiper-item id="0" catchtouchmove="false">
+            <view class="sider_box">
+                 <text class="slider_tit">大学考级</text>
+                 <view class="slider_listbox">
+                       <view class="slider_listcon">经济法</view>
+                       <view class="slider_listcon">教育学</view>
+                       <view class="slider_listcon">历史学</view>
+                 </view>
+                  <text class="slider_tit">大学考级1</text>
+                 <view class="slider_listbox">
+                       <view class="slider_listcon">经济法1</view>
+                       <view class="slider_listcon">教育学1</view>
+                       <view class="slider_listcon">历史学1</view>
+                 </view>
+           
+            </view>
+        </swiper-item>
+        <swiper-item id="1" catchtouchmove="false">
+          <view class="sider_box">
+                 <text class="slider_tit">冬夏令营</text>
+                 <view class="slider_listbox">
+                       <view class="slider_listcon">冬夏令营</view>
+                       <view class="slider_listcon">冬夏令营</view>
+                       <view class="slider_listcon">冬夏令营</view>
+                 </view>
+                  <text class="slider_tit">冬夏令营1</text>
+                 <view class="slider_listbox">
+                       <view class="slider_listcon">冬夏令营1</view>
+                       <view class="slider_listcon">冬夏令营1</view>
+                       <view class="slider_listcon">冬夏令营1</view>
+                 </view>
+           
+            </view>
+        </swiper-item>
+        <swiper-item id="2" catchtouchmove="false">
+         <view class="sider_box">
+                 <text class="slider_tit">出国留学</text>
+                 <view class="slider_listbox">
+                       <view class="slider_listcon">出国留学</view>
+                       <view class="slider_listcon">出国留学</view>
+                       <view class="slider_listcon">出国留学</view>
+                 </view>
+                  <text class="slider_tit">出国留学1</text>
+                 <view class="slider_listbox">
+                       <view class="slider_listcon">出国留学1</view>
+                       <view class="slider_listcon">出国留学1</view>
+                       <view class="slider_listcon">出国留学1</view>
+                 </view>
+           
+            </view>
+        </swiper-item>
+      </swiper> 
+    </view>
+  </view>
+</view>

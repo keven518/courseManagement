@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/sy/index",
+    "pages/article/article",
+    "pages/shangcheng/shangcheng",
+    "pages/kechng/kecheng",
+    "pages/myhome/myhome",
+    "pages/video/video"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#4675f9",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/sy/index",
+        "iconPath": "images/pdd_tab_normal.png",
+        "selectedIconPath": "images/pdd_tab_selected.png",
+        "text": "课程"
+      },
+      {
+        "pagePath": "pages/shangcheng/shangcheng",
+        "iconPath": "images/xp_tab_normal.png",
+        "selectedIconPath": "images/xp_tab_selected.png",
+        "text": "商城"
+      },
+      
+      {
+        "pagePath": "pages/myhome/myhome",
+        "iconPath": "images/main_tab_normal.png",
+        "selectedIconPath": "images/main_tab_selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
